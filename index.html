@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" class="p-0 m-0">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="dist/aos.css">
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
+    <noscript>
+        <style type="text/css">
+            [data-aos] {
+                opacity: 1 !important;
+                transform: translate(0) scale(1) !important;
+            }
+        </style>
+    </noscript>
+    <title>Tema 2</title>
+</head>
+
+<body class="p-0 m-0 bg-secondary flex flex-col md:flex-row md:overflow-hidden relative">
+    <div class="bg-bgsection bg-fixed h-48 md:h-screen md:w-7/12 bg-contain md:bg-cover m-0 shadow-xl">
+        <div class="w-full h-full bg-black/[0.6] relative md:relative">
+            <div
+                class="music mactive shadow-lg  rounded-full bg-secondary fixed right-5 top-5 w-10 h-10 p-2 flex justify-center align-middle items-center md:absolute md:right-5 md:top-5  z-30 cursor-pointer">
+                <i class="self-center fas fa-music"></i>
+            </div>
+            <div
+                class="in-auto  text-primary absolute md:top-1/2  -translate-y-1/2 top-1/2 left-1/2 md:-translate-x-0 -translate-x-1/2 text-center md:text-left md:left-5 text-3xl md:text-5xl font-kaushan">
+                <h1 class="my-1 md:my-2">samsul arifin</h1>
+                <h1 class="my-1 md:my-2">&</h1>
+                <h1 class="my-1 md:my-2">s fulana</h1>
+            </div>
+
+            <!-- <nav
+                class="shadow-lg rounded-md fixed items-center align-middle p-1 z-30 md:z-50 justify-center top-1/2 md:w-1/12  w-8/12 left-1/2 -translate-y-1/2 right-0  bg-secondary  font-normal hidden md:flex flex-col">
+                <a href=".couple"
+                    class="page-scroll group text-lg text-textPrimary transition-all duration-200 p-2 flex items-center hover:bg-komponen rounded-md overflow-hidden"><i
+                        class="text-lg fas fa-ring group-hover:text-primary transition-all duration-150"></i><span
+                        class="font-poppins mx-2 group-hover:max-w-full group-hover:text-primary max-w-0 transition-all duration-300 overflow-hidden text-lg">Couple</span></a>
+
+
+                <a href=".date"
+                    class="page-scroll group text-lg items-center text-textPrimary transition-all duration-200 p-2 flex  hover:bg-komponen rounded-md overflow-hidden"><i
+                        class="text-lg fas fa-calendar-check group-hover:text-primary transition-all duration-150"></i><span
+                        class="font-poppins mx-2 group-hover:max-w-full group-hover:text-primary max-w-0 transition-all duration-300 overflow-hidden text-lg">Date</span></a>
+                <a href=".location"
+                    class="page-scroll group text-lg items-center text-textPrimary transition-all duration-200 p-2 flex  hover:bg-komponen rounded-md overflow-hidden"><i
+                        class="text-lg fas fa-map-marker-alt group-hover:text-primary transition-all
+                        duration-150"></i><span
+                        class="font-poppins mx-2 group-hover:max-w-full group-hover:text-primary max-w-0 transition-all duration-300 overflow-hidden text-lg">Location</span></a>
+                <a href=".galeri"
+                    class="page-scroll group text-lg items-center text-textPrimary transition-all duration-200 p-2 flex  hover:bg-komponen rounded-md overflow-hidden"><i
+                        class="text-lg fas fas fa-images group-hover:text-primary transition-all
+                        duration-150"></i><span
+                        class="font-poppins mx-2 group-hover:max-w-full group-hover:text-primary max-w-0 transition-all duration-300 overflow-hidden text-lg">Gallery</span></a>
+
+                <a href=".ls"
+                    class="page-scroll group text-lg text-textPrimary items-center transition-all duration-200 p-2 flex  hover:bg-komponen rounded-md overflow-hidden"><i
+                        class="text-lg fab fa-gratipay group-hover:text-primary"></i><span
+                        class="font-poppins mx-2 group-hover:max-w-full max-w-0 transition-all duration-300 overflow-hidden text-lg group-hover:text-primary">LoveStory</span></a>
+
+                <a href=".pesankesan"
+                    class="page-scroll group text-lg text-textPrimary transition-all items-center duration-200 p-2 flex  hover:bg-komponen rounded-md overflow-hidden"><i
+                        class="text-lg fas fa-inbox group-hover:text-primary"></i><span
+                        class="font-poppins mx-2 group-hover:max-w-full max-w-0 transition-all duration-300 overflow-hidden group-hover:text-primary text-lg">Pesan</span></a>
+
+
+            </nav> -->
+
+        </div>
+
+    </div>
+    <div
+        class="md:w-5/12 md:h-screen relative lah block md:relative w-full h-full md:overflow-y-scroll overflow-x-hidden bg-primary">
+        <nav
+            class="md:hidden shadow-lg rounded-md fixed items-center align-middle p-1 z-30 justify-around bottom-3 flex w-10/12 left-1/2 -translate-x-1/2 mx-auto bg-secondary  font-normal">
+            <a href=".couple"
+                class="group page-scroll text-lg text-textPrimary transition-all duration-200 p-2 flex items-center hover:bg-komponen rounded-md overflow-hidden"><i
+                    class="text-lg fas fa-ring group-hover:text-primary transition-all duration-150"></i><span
+                    class="font-poppins mx-2 group-hover:max-w-full group-hover:text-primary max-w-0 transition-all duration-300 overflow-hidden text-lg">Couple</span></a>
+
+
+            <a href=".date"
+                class="group page-scroll text-lg items-center text-textPrimary transition-all duration-200 p-2 flex  hover:bg-komponen rounded-md overflow-hidden"><i
+                    class="text-lg fas fa-calendar-check group-hover:text-primary transition-all duration-150"></i><span
+                    class="font-poppins mx-2 group-hover:max-w-full group-hover:text-primary max-w-0 transition-all duration-300 overflow-hidden text-lg">Date</span></a>
+
+            <a href=".location"
+                class="page-scroll group text-lg items-center text-textPrimary transition-all duration-200 p-2 flex  hover:bg-komponen rounded-md overflow-hidden"><i
+                    class="text-lg fas fa-map-marker-alt group-hover:text-primary transition-all
+                        duration-150"></i><span
+                    class="font-poppins mx-2 group-hover:max-w-full group-hover:text-primary max-w-0 transition-all duration-300 overflow-hidden text-lg">Location</span></a>
+            <a href=".galeri"
+                class="page-scroll group text-lg items-center text-textPrimary transition-all duration-200 p-2 flex  hover:bg-komponen rounded-md overflow-hidden"><i
+                    class="text-lg fas fas fa-images group-hover:text-primary transition-all
+                        duration-150"></i><span
+                    class="font-poppins mx-2 group-hover:max-w-full group-hover:text-primary max-w-0 transition-all duration-300 overflow-hidden text-lg">Galerry</span></a>
+            <a href=".ls"
+                class="group page-scroll text-lg text-textPrimary items-center transition-all duration-200 p-2 flex  hover:bg-komponen rounded-md overflow-hidden"><i
+                    class="text-lg fab fa-gratipay group-hover:text-primary"></i><span
+                    class="font-poppins mx-2 group-hover:max-w-full max-w-0 transition-all duration-300 overflow-hidden text-lg group-hover:text-primary">LoveStory</span></a>
+
+            <a href=".pesankesan"
+                class="group page-scroll text-lg text-textPrimary transition-all items-center duration-200 p-2 flex  hover:bg-komponen rounded-md overflow-hidden"><i
+                    class="text-lg fas fa-inbox group-hover:text-primary"></i><span
+                    class="font-poppins mx-2 group-hover:max-w-full max-w-0 transition-all duration-300 overflow-hidden group-hover:text-primary text-lg">Pesan</span></a>
+
+
+        </nav>
+        <section
+            class="cover fixed w-full max-h-full top-0 bottom-0 z-40 md:relative md:h-screen pt-10 pb-0 text-primary bg-textPrimary">
+            <h1 class="z-20 cover-down text-center text-lg  font-poppins">Our Wedding</h1>
+            <h1 class="z-20 cover-down text-center text-3xl my-11 font-kaushan">samsul & s fulana</h1>
+            <h1 class="text-center cover-down font-schoolbell my-8 text-3xl">17 . 08 . 2022</h1>
+            <div class="p-4 cover-down">
+                <h1 class="text-center text-2xl font-poppins">Untuk <span
+                        class="tujuan text-komponen font-bold">Afif</span>
+                </h1>
+                <p class="cover-down font-poppins text-base my-2 text-center">
+                    Diharapkan kehadiran
+                    bapak/ibu/saudara untuk
+                    menghadiri acara
+                    kami.</p>
+            </div>
+
+            <img src="img/elemen-1.png" class="w-1/3 absolute top-3 left-2 z-10" alt="">
+
+
+            <img src="img/elemen-1.png" class="w-1/3 absolute top-3 right-2 z-10 -scale-x-100" alt="">
+
+            <button
+                class="cover-down buka block w-4/12 p-2 mt-24 bg-secondary hover:bg-komponen transition-all duration-150 hover:shadow-inner md:hidden text-textPrimary mx-auto rounded-lg"><i
+                    class="far fa-envelope-open"></i> Buka
+                Undangan</button>
+            <audio id="player" class="hidden" controls autoplay="autoplay" allow="autoplay" muted>
+                <source src="mp3/music.mp3" type="audio/mpeg">
+            </audio>
+            <div class="cover-down my-8 font-poppins md:block hidden">
+                <p class="text-center text-lg"><i class="fas fa-mouse"></i></p>
+                <p class="text-center text-lg">Scroll Ke Bawah</i></p>
+            </div>
+            <p class=" cover-down text-center text-xs italic font-poppins font-thin p-5">Lorem ipsum dolor sit amet,
+                consectetur
+                adipisicing
+                elit.
+                Voluptatibus
+                ab
+                totam dolorum, perferendis recusandae quidem, obcaecati labore, animi incidunt illum quo ipsum neque
+                dolores ex voluptatem quod aliquid laboriosam harum?</p>
+            <h2 class="cover-down text-center text-md font-semibold font-poppins">- Quotes -</h2>
+            <svg class="hidden md:block md:absolute hiddem -bottom-2" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1440 320">
+                <path fill="#e8ffff" fill-opacity="1"
+                    d="M0,256L48,240C96,224,192,192,288,192C384,192,480,224,576,245.3C672,267,768,277,864,245.3C960,213,1056,139,1152,128C1248,117,1344,171,1392,197.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+        <section class="h-screen relative flex align-middle items-center">
+            <div
+                class="fade-left relative self-center text-center text-textPrimary my-4 text-sm font-poppins p-4 font-semibold">
+                <p class="my-2">Assalamualaikum Wr. Wb</p>
+                <p class="my-2">Bismillahirrohmanirrohim</p>
+                <p class="my-2 leading-7">"Mahasuci Allah telah menciptakan manusia dengan berpasang-pasangan.
+                    Sungguh besar rahmat dan
+                    karunia
+                    yang diberikan-Nya kepada keluarga Kami. Maka izinkan Kami mengundang sekaligus mengharapkan doa
+                    restu dari bapak/ibu dalam acara pernikahan putra & putri kami."</p>
+            </div>
+            <img src="img/elemen-2.png" class="absolute w-1/3 bottom-0 right-1" alt="">
+            <img src="img/elemen-2.png" class="absolute w-1/3 top-0 left-1 rotate-180" alt="">
+        </section>
+        <section id="#couple"
+            class=".couple min-h-screen relative flex flex-col p-4 bg-secondary align-middle shadow-inner items-center text-textPrimary pb-14">
+            <h1 class="couple text-center text-4xl font-kaushan text-komponen">We're Getting Married</h1>
+            <div class="couple my-8 text-center font-semibold">
+                <div class="relative w-52 h-52 mx-auto text-center shadow-md rounded-full">
+                    <img src="img/samsul.jpg" class="rounded-full w-52 h-52 mx-auto md:w-52 md:h-52" alt="">
+                    <img src="img/elemen-3.png" class="absolute top-[5px] left-0 right-[5px] scale-105" alt="">
+                </div>
+                <h2 class="text-center my-3 font-poppins font-thin text-lg"><i class="fab fa-instagram"></i> samsul</h2>
+                <h2 class="text-center my-3  font-kaushan text-3xl">Samsul</h2>
+                <h2 class="my-3 font-poppins text-md">Putra Bp Fulan & Ibu Fulanah</h2>
+            </div>
+            <h2 class="couple text-center text-4xl font-kaushan">&</h2>
+            <div class="couple my-8 text-center font-semibold">
+                <div class="relative w-52 h-52 mx-auto shadow-md rounded-full">
+                    <img src="img/sefia.png" class="rounded-full w-52 h-52" alt="">
+                    <img src="img/elemen-3.png" class="absolute top-[5px] left-0 right-[5px] scale-105" alt="">
+                </div>
+                <h2 class="text-center my-3 font-poppins font-thin text-lg"><i class="fab fa-instagram"></i> S fulana </h2>
+                <h2 class="text-center my-3  font-kaushan text-3xl">s fulana</h2>
+                <h2 class="my-3 font-poppins text-md">Putri Bp Fulan & Ibu Fulanah</h2>
+            </div>
+            <svg class="absolute bottom-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#213e3b" fill-opacity="1"
+                    d="M0,64L48,85.3C96,107,192,149,288,149.3C384,149,480,107,576,117.3C672,128,768,192,864,213.3C960,235,1056,213,1152,197.3C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+        <section id="#date" class="date h-screen flex relative shadow-inner bg-textPrimary">
+            <img src="img/elemen-5.png"
+                class="text-center w-4/12 scale-75 absolute bottom-2 left-1/2 -translate-x-1/2 mx-auto" alt="">
+            <div class="waktu w-full self-center items-center">
+                <h1 class="text-primary p-4 text-center font-poppins font-bold  text-2xl">Waktu
+                    Pelaksanaan</h1>
+                <div class="countdown text-center font-poppins text-primary">
+                    <div class="flex text-center text-primary font-schoolbell my-5 justify-center mx-auto">
+                        <div class="">
+                            <h2 class="hari text-2xl my-3">5</h2>
+                            <h2 class="text-lg">Hari</h2>
+                        </div>
+                    </div>
+                    <div class="flex text-center text-primary font-schoolbell w-9/12 my-5 mx-auto justify-between">
+                        <div class="">
+                            <h2 class="jam my-3 text-2xl">7</h2>
+                            <h2 class="text-lg">Jam</h2>
+                        </div>
+                        <div class="">
+                            <h2 class="menit my-3 text-2xl">20</h2>
+                            <h2 class="text-lg">Menit</h2>
+                        </div>
+                        <div class="">
+                            <h2 class="detik text-2xl my-3">5</h2>
+                            <h2 class="text-lg">Detik</h2>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="tanggal text-center font-poppins my-3 text-primary text-lg">17 agustus 2022</h1>
+                <button
+                    class="simpan block w-4/12 p-2 my-6 bg-secondary hover:bg-komponen transition-all duration-150 hover:shadow-inner outline-none outline-0 text-textPrimary mx-auto rounded-lg"><i
+                        class="fas fa-calendar-check"></i> Save
+                    The Date</button>
+            </div>
+            <svg class="absolute bottom-0 w-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#e8ffff" fill-opacity="1"
+                    d="M0,128L48,122.7C96,117,192,107,288,112C384,117,480,139,576,128C672,117,768,75,864,69.3C960,64,1056,96,1152,101.3C1248,107,1344,85,1392,74.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+
+        </section>
+        <section class="location h-screen relative flex flex-col p-4 align-middle items-center ">
+            <h2 class="lokasi-down text-textPrimary p-4 text-center mx-auto font-poppins font-bold  text-2xl"><i
+                    class="fas fa-map-marker-alt"></i> Lokasi</h2>
+            <div class="lokasi-down mapouter">
+                
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Dukuh%20Tengah%20RT%2003%20RW%2006,%20Dukuhbenda,%20Kecamatan%20Bumijawa,%20Kabupaten%20Tegal&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:right;height:300px;width:300px;}</style><a href="https://www.embedgooglemap.net">google maps for websites</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:300px;}</style></div></div>
+            <h2 class="lokasi-down text-textPrimary p-4 text-center mx-auto font-poppins font-bold  text-lg">Desa
+                Dukuhbenda Rt 03
+                Rw 06, Kec. Bumijawa Kab. Tegal</h2>
+
+        </section>
+        <!-- love story -->
+        <section id="#ls" class="ls min-h-screen relative flex flex-col p-4 shadow-inner bg-secondary ls">
+            <img src="img/elemen-4.png" class="absolute top-5 right-2 w-5/12 h-5/12 -scale-x-100" alt="">
+            <img src="img/elemen-4.png" class="absolute bottom-5 left-2 w-5/12 h-5/12" alt="">
+            <h2 class="text-textPrimary p-4 text-center mx-auto font-poppins font-bold  text-2xl"><i
+                    class="fas fa-heart"></i> Love Story</h2>
+            <div class="w-2/4 p-4 self-start my-2 bg-primary rounded-md shadow-lg story">
+                <h2
+                    class="bg-komponen text-secondary text-center w-2/4 font-poppins my-2 font-semibold p-2 text-md rounded-md">
+                    2019
+                </h2>
+                <p class="text-sm font-poppins">
+                    <span class="block my-1 font-semibold text-xl font-poppins">Awal Bertemu</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aut perspiciatis quia velit!
+                    Asperiores consequuntur odio quaerat obcaecati, dolor ipsa a dolore magnam sit quam placeat illum
+                    pariatur incidunt magni.
+                </p>
+            </div>
+            <div class="w-2/4 p-4 self-center my-2 bg-primary rounded-md shadow-lg story">
+                <h2
+                    class="bg-komponen text-secondary text-center w-2/4 font-poppins my-2 font-semibold p-2 text-md rounded-md">
+                    2021
+                </h2>
+                <p class="text-sm font-poppins">
+                    <span class="block my-1 font-semibold text-xl font-poppins">Timbul Rasa</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aut perspiciatis quia velit!
+                    Asperiores consequuntur odio quaerat obcaecati, dolor ipsa a dolore magnam sit quam placeat illum
+                    pariatur incidunt magni.
+                </p>
+            </div>
+            <div class="w-2/4 p-4 self-end my-2 bg-primary rounded-md shadow-lg story">
+                <h2
+                    class="bg-komponen text-secondary text-center w-2/4 font-poppins my-2 font-semibold p-2 text-md rounded-md">
+                    2022
+                </h2>
+                <p class="text-sm font-poppins">
+                    <span class="block my-1 font-semibold text-xl font-poppins">Satukan Rasa</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aut perspiciatis quia velit!
+                    Asperiores consequuntur odio quaerat obcaecati, dolor ipsa a dolore magnam sit quam placeat illum
+                    pariatur incidunt magni.
+                </p>
+            </div>
+        </section>
+        <!-- galeri -->
+        <section class=".galeri min-h-screen relative flex galeri flex-col p-6 bg-textPrimary">
+            <h2 class="text-primary p-4 text-center mx-auto font-poppins font-bold  text-2xl"><i
+                    class="fas fa-images"></i> Galeri Foto</h2>
+            <div class="container mx-auto items-center ">
+                <div class="grid grid-cols-4 grid-rows-4 grid-flow-col gap-2">
+                    <div class="w-full row-span-2">
+                        <img src="https://images.unsplash.com/photo-1432457990754-c8b5f21448de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+                            alt="Photo by Claudio Schwarz on Unsplash"
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 image">
+                    </div>
+                    <div class="w-full col-span-2 row-span-2">
+                        <img src="https://images.unsplash.com/photo-1586921829167-409624a3734a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="Photo by Claudio Schwarz on Unsplash"
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 image">
+                    </div>
+                    <div class="w-full ">
+                        <img src="https://images.unsplash.com/photo-1489981424607-45c58daf0581?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="Photo by Claudio Schwarz on Unsplash"
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 image">
+                    </div>
+                    <div class="w-full">
+                        <img src="https://images.unsplash.com/photo-1489981424607-45c58daf0581?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="Photo by Claudio Schwarz on Unsplash"
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 image">
+                    </div>
+                    <div class="w-full col-span-2 row-span-2">
+                        <img src="https://images.unsplash.com/photo-1586921829167-409624a3734a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="Photo by Claudio Schwarz on Unsplash"
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 image">
+                    </div>
+
+                    <div class="w-full col-span-2">
+                        <img src="https://images.unsplash.com/photo-1534531173927-aeb928d54385?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="Photo by Claudio Schwarz on Unsplash"
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 image">
+                    </div>
+                    <div class="w-full">
+                        <img src="https://images.unsplash.com/photo-1489981424607-45c58daf0581?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="Photo by Claudio Schwarz on Unsplash"
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 image">
+                    </div>
+                    <div class="w-full">
+                        <img src="https://images.unsplash.com/photo-1489981424607-45c58daf0581?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="Photo by Claudio Schwarz on Unsplash"
+                            class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 image">
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+        <!-- pesan -->
+        <section id="#pesan" class="pesankesan min-h-screen relative flex flex-col p-6 bg-primary">
+            <h2 class="p-4 text-textPrimary text-center mx-auto font-poppins font-bold  text-2xl"><i
+                    class="fas fa-inbox text-textPrimary"></i> Pesan & Kesan</h2>
+            <form action="" class="form w-11/12 mx-auto rounded-lg bg-secondary font-poppins shadow-lg p-2">
+                <input type="text"
+                    class="transition-all duration-75 active:shadow-lg focus:shadow-lg active:border-2 font-semibold  hover:shadow-lg my-4 w-full p-2 outline-none outline-0 rounded-md "
+                    placeholder="Nama">
+                <select name="" id=""
+                    class="my-4 hover:shadow-lg font-semibold bg-white duration-75 transition-all focus:shadow-lg active:shadow-lg w-full outline-none p-2 outline-0 rounded-md">
+                    <option value="">Konfirmasi Kehadiran</option>
+                    <option value="Hadir">Hadir</option>
+                    <option value="Tidak Hadir">Tidak Hadir</option>
+                </select>
+                <textarea
+                    class="w-full flow-root font-semibold  indent-0 p-4 hover:shadow-lg resize-none focus:shadow-lg active:shadow-lg duration-75 transition-all outline-none outline-0 rounded-md my-4 "
+                    name="" id="" aria-colspan="message" cols="30" rows="10" placeholder="Pesan Disini"></textarea>
+                <button
+                    class="w-full p-2 bg-komponen hover:shadow-lg font-semibold text-primary text-lg rounded-md hover:bg-primary hover:text-textPrimary duration-100 transition-all"
+                    type="submit">Kirim</button>
+            </form>
+            <div
+                class="pesan w-11/12 mx-auto font-poppins bg-komponen my-4 rounded-lg shadow-lg p-4 h-screen overflow-y-scroll listpesan">
+                <!-- list pesan -->
+                <div class="psn flex flex-col my-3 bg-primary shadow-lg p-2 rounded-md">
+                    <div class="p-2">
+                        <h2
+                            class="text-xs text-textPrimary inline-block mx-1 font-semibold p-2 bg-secondary shadow-lg rounded-md">
+                            Nama</h2>
+                        <h2
+                            class="text-xs text-primary inline-block p-2 mx-1 bg-green-600 font-semibold rounded-md shadow-md">
+                            Hadir</h2>
+                    </div>
+                    <div class="w-full p-2 text-justify text-xs font-semibold text-textPrimary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam suscipit debitis inventore
+                        alias ipsam a laboriosam quasi repellat maiores veniam sint accusantium, sapiente cum quibusdam
+                        totam, aspernatur error beatae aperiam?
+
+                    </div>
+                </div>
+                <div class="psn flex flex-col my-3 bg-primary shadow-lg p-2 rounded-md">
+                    <div class="p-2">
+                        <h2
+                            class="text-xs text-textPrimary inline-block mx-1 font-semibold p-2 bg-secondary shadow-lg rounded-md">
+                            Nama</h2>
+                        <h2
+                            class="text-xs text-primary inline-block p-2 mx-1 bg-green-600 font-semibold rounded-md shadow-md">
+                            Hadir</h2>
+                    </div>
+                    <div class="w-full p-2 text-justify text-xs font-semibold text-textPrimary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam suscipit debitis inventore
+                        alias ipsam a laboriosam quasi repellat maiores veniam sint accusantium, sapiente cum quibusdam
+                        totam, aspernatur error beatae aperiam?
+
+                    </div>
+                </div>
+                <div class="psn flex flex-col my-3 bg-primary shadow-lg p-2 rounded-md">
+                    <div class="p-2">
+                        <h2
+                            class="text-xs text-textPrimary inline-block mx-1 font-semibold p-2 bg-secondary shadow-lg rounded-md">
+                            Nama</h2>
+                        <h2
+                            class="text-xs text-primary inline-block p-2 mx-1 bg-green-600 font-semibold rounded-md shadow-md">
+                            Hadir</h2>
+                    </div>
+                    <div class="w-full p-2 text-justify text-xs font-semibold text-textPrimary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam suscipit debitis inventore
+                        alias ipsam a laboriosam quasi repellat maiores veniam sint accusantium, sapiente cum quibusdam
+                        totam, aspernatur error beatae aperiam?
+
+                    </div>
+                </div>
+                <div class="psn flex flex-col my-3 bg-primary shadow-lg p-2 rounded-md">
+                    <div class="p-2">
+                        <h2
+                            class="text-xs text-textPrimary inline-block mx-1 font-semibold p-2 bg-secondary shadow-lg rounded-md">
+                            Nama</h2>
+                        <h2
+                            class="text-xs text-primary inline-block p-2 mx-1 bg-komponen font-semibold rounded-md shadow-md">
+                            Tidak Hadir</h2>
+                    </div>
+                    <div class="w-full p-2 text-justify text-xs font-semibold text-textPrimary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam suscipit debitis inventore
+                        alias ipsam a laboriosam quasi repellat maiores veniam sint accusantium, sapiente cum quibusdam
+                        totam, aspernatur error beatae aperiam?
+
+                    </div>
+                </div>
+                <div class="psn flex flex-col my-3 bg-primary shadow-lg p-2 rounded-md">
+                    <div class="p-2">
+                        <h2
+                            class="text-xs text-textPrimary inline-block mx-1 font-semibold p-2 bg-secondary shadow-lg rounded-md">
+                            Nama</h2>
+                        <h2
+                            class="text-xs text-primary inline-block p-2 mx-1 bg-green-600 font-semibold rounded-md shadow-md">
+                            Hadir</h2>
+                    </div>
+                    <div class="w-full p-2 text-justify text-xs font-semibold text-textPrimary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam suscipit debitis inventore
+                        alias ipsam a laboriosam quasi repellat maiores veniam sint accusantium, sapiente cum quibusdam
+                        totam, aspernatur error beatae aperiam?
+
+                    </div>
+                </div>
+                <div class="psn flex flex-col my-3 bg-primary shadow-lg p-2 rounded-md">
+                    <div class="p-2">
+                        <h2
+                            class="text-xs text-textPrimary inline-block mx-1 font-semibold p-2 bg-secondary shadow-lg rounded-md">
+                            Nama</h2>
+                        <h2
+                            class="text-xs text-primary inline-block p-2 mx-1 bg-green-600 font-semibold rounded-md shadow-md">
+                            Hadir</h2>
+                    </div>
+                    <div class=" w-full p-2 text-justify text-xs font-semibold text-textPrimary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam suscipit debitis inventore
+                        alias ipsam a laboriosam quasi repellat maiores veniam sint accusantium, sapiente cum quibusdam
+                        totam, aspernatur error beatae aperiam?
+
+                    </div>
+                </div>
+                <div class="psn flex flex-col my-3 bg-primary shadow-lg p-2 rounded-md">
+                    <div class="p-2">
+                        <h2
+                            class="text-xs text-textPrimary inline-block mx-1 font-semibold p-2 bg-secondary shadow-lg rounded-md">
+                            Nama</h2>
+                        <h2
+                            class="text-xs text-primary inline-block p-2 mx-1 bg-green-600 font-semibold rounded-md shadow-md">
+                            Hadir</h2>
+                    </div>
+                    <div class="w-full p-2 text-justify text-xs font-semibold text-textPrimary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam suscipit debitis inventore
+                        alias ipsam a laboriosam quasi repellat maiores veniam sint accusantium, sapiente cum quibusdam
+                        totam, aspernatur error beatae aperiam?
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="text-center font-poppins p-6 w-full text-primary bg-textPrimary pb-20">
+            <h2 class="text-md"><i class="far fa-copyright"></i> 2022 samsul channel</h2>
+            <h2 class="text-md">All Right Reserved <i class="text-red-600 fas fa-heart"></i> By samsul</h2>
+        </section>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/musik.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
